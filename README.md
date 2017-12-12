@@ -1,6 +1,8 @@
 # IMDB-Movie-Review-Classification
 Python program to classify movie reviews based on Knn
 
+##### Accuracy: 0.8254
+
 #### Approach:
 1.  The input training data and testing data were first “cleaned” using a pre-processor function (user-defined) to remove all words that do not contribute to the sentiment of the review.
 2.  This pre-processed review of training and testing data were then converted to TF-IDF CSR sparse matrices and L2 normalized.
